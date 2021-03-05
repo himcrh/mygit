@@ -1,1 +1,1 @@
-Something for testing and learning.
+学习c/c++算法git库
