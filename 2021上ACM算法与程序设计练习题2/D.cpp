@@ -2,9 +2,8 @@
 using namespace std;
 int n,m;
 int ret(bool pos,int floor){
-    if(!floor){
+    if(!floor)
         return pos ? 0 : 1;
-    }
     return pos ?  (n-2)*ret(1,floor-1)+ret(0,floor-1) : (n-1)*ret(1,floor-1);
 }
 int main(){
