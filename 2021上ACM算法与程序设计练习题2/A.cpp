@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<algorithm>
 #include<iostream>
+#include<string.h>
 using namespace std;
 const int N = 101;
 struct ant_type{
